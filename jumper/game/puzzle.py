@@ -31,7 +31,7 @@ class Puzzle:
             self (Puzzle): an instance of the Puzzle
         
         """
-        self._puzzle = ["_ "] * len(self._secret_word)
+        self._puzzle = ["_ "] * len(self._word)
 
     def update_puzzle(self, jumper_guess):
         """Update the puzzle with users latest guess
